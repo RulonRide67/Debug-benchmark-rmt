@@ -1,0 +1,10 @@
+{
+  "id": "L03",
+  "category": "logic",
+  "subtype": "wrong state update",
+  "function": "second_largest",
+  "description": "old maximum not moved to second; duplicates not skipped",
+  "language": "python",
+  "origin": "newly written function with one seeded fault (not taken from a public benchmark)",
+  "created": "2026-10-25"
+}

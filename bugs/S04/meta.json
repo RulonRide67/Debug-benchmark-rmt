@@ -1,0 +1,10 @@
+{
+  "id": "S04",
+  "category": "syntax",
+  "subtype": "indentation",
+  "function": "merge_dicts",
+  "description": "loop body not indented",
+  "language": "python",
+  "origin": "newly written function with one seeded fault (not taken from a public benchmark)",
+  "created": "2026-10-25"
+}

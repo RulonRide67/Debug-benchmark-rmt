@@ -1,0 +1,1 @@
+{"model": {"provider": "mock_oracle"}, "conditions": ["zero_shot", "iterative", "sampled"], "max_turns": 3, "sample_temperature": 0.8}

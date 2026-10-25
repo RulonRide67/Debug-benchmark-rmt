@@ -1,0 +1,10 @@
+{
+  "id": "R01",
+  "category": "runtime",
+  "subtype": "ZeroDivisionError",
+  "function": "average",
+  "description": "empty input not handled",
+  "language": "python",
+  "origin": "newly written function with one seeded fault (not taken from a public benchmark)",
+  "created": "2026-10-25"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "X04",
+  "category": "security",
+  "subtype": "cross-site scripting (CWE-79)",
+  "function": "render_comment",
+  "description": "user input inserted into HTML without escaping",
+  "language": "python",
+  "origin": "newly written function with one seeded fault (not taken from a public benchmark)",
+  "created": "2026-10-25"
+}

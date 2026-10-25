@@ -1,0 +1,10 @@
+{
+  "id": "L01",
+  "category": "logic",
+  "subtype": "off-by-one",
+  "function": "binary_search",
+  "description": "loop condition excludes the last candidate",
+  "language": "python",
+  "origin": "newly written function with one seeded fault (not taken from a public benchmark)",
+  "created": "2026-10-25"
+}

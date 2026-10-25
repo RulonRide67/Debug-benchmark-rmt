@@ -1,0 +1,16 @@
+condition,category,fixed,n,rate,ci_low,ci_high
+zero_shot,syntax,4,4,1.0,0.51,1.0
+zero_shot,logic,4,4,1.0,0.51,1.0
+zero_shot,runtime,4,4,1.0,0.51,1.0
+zero_shot,security,4,4,1.0,0.51,1.0
+zero_shot,ALL,16,16,1.0,0.806,1.0
+iterative,syntax,4,4,1.0,0.51,1.0
+iterative,logic,4,4,1.0,0.51,1.0
+iterative,runtime,4,4,1.0,0.51,1.0
+iterative,security,4,4,1.0,0.51,1.0
+iterative,ALL,16,16,1.0,0.806,1.0
+sampled,syntax,4,4,1.0,0.51,1.0
+sampled,logic,4,4,1.0,0.51,1.0
+sampled,runtime,4,4,1.0,0.51,1.0
+sampled,security,4,4,1.0,0.51,1.0
+sampled,ALL,16,16,1.0,0.806,1.0

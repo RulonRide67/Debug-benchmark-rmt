@@ -1,0 +1,10 @@
+{
+  "id": "S03",
+  "category": "syntax",
+  "subtype": "assignment in condition",
+  "function": "grade",
+  "description": "'=' used instead of a comparison operator",
+  "language": "python",
+  "origin": "newly written function with one seeded fault (not taken from a public benchmark)",
+  "created": "2026-10-25"
+}

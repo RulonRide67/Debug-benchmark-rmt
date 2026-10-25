@@ -1,0 +1,4 @@
+condition,fixed,syntax_error,tests_fail
+zero_shot,0,4,12
+iterative,16,0,0
+sampled,0,4,12

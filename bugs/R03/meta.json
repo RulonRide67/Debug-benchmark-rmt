@@ -1,0 +1,10 @@
+{
+  "id": "R03",
+  "category": "runtime",
+  "subtype": "IndexError",
+  "function": "differences",
+  "description": "index runs past the end of the list",
+  "language": "python",
+  "origin": "newly written function with one seeded fault (not taken from a public benchmark)",
+  "created": "2026-10-25"
+}

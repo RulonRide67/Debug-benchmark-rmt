@@ -1,0 +1,7 @@
+{
+  "model": {"provider": "ollama", "model": "qwen2.5-coder:7b", "host": "http://localhost:11434",
+            "temperature": 0.0, "seed": 42},
+  "conditions": ["zero_shot", "iterative", "sampled"],
+  "max_turns": 3,
+  "sample_temperature": 0.8
+}

@@ -1,0 +1,10 @@
+{
+  "id": "S02",
+  "category": "syntax",
+  "subtype": "unbalanced parenthesis",
+  "function": "bmi",
+  "description": "closing parenthesis misplaced",
+  "language": "python",
+  "origin": "newly written function with one seeded fault (not taken from a public benchmark)",
+  "created": "2026-10-25"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "X03",
+  "category": "security",
+  "subtype": "code injection via eval (CWE-95)",
+  "function": "parse_number_list",
+  "description": "untrusted input passed to eval",
+  "language": "python",
+  "origin": "newly written function with one seeded fault (not taken from a public benchmark)",
+  "created": "2026-10-25"
+}

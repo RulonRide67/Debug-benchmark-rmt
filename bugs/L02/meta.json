@@ -1,0 +1,10 @@
+{
+  "id": "L02",
+  "category": "logic",
+  "subtype": "incomplete condition",
+  "function": "is_leap",
+  "description": "missing divisible-by-400 rule",
+  "language": "python",
+  "origin": "newly written function with one seeded fault (not taken from a public benchmark)",
+  "created": "2026-10-25"
+}

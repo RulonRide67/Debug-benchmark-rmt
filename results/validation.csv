@@ -1,0 +1,17 @@
+bug_id,category,subtype,buggy_visible,buggy_hidden,fixed_visible,fixed_hidden,n_tests,valid
+L01,logic,off-by-one,fail,fail,pass,pass,4,True
+L02,logic,incomplete condition,fail,pass,pass,pass,4,True
+L03,logic,wrong state update,fail,fail,pass,pass,4,True
+L04,logic,wrong formula,fail,fail,pass,pass,4,True
+R01,runtime,ZeroDivisionError,fail,pass,pass,pass,3,True
+R02,runtime,KeyError,fail,fail,pass,pass,3,True
+R03,runtime,IndexError,fail,fail,pass,pass,4,True
+R04,runtime,TypeError,fail,fail,pass,pass,3,True
+S01,syntax,missing colon,syntax_error,syntax_error,pass,pass,3,True
+S02,syntax,unbalanced parenthesis,syntax_error,syntax_error,pass,pass,3,True
+S03,syntax,assignment in condition,syntax_error,syntax_error,pass,pass,3,True
+S04,syntax,indentation,syntax_error,syntax_error,pass,pass,3,True
+X01,security,SQL injection (CWE-89),fail,fail,pass,pass,4,True
+X02,security,path traversal (CWE-22),fail,fail,pass,pass,5,True
+X03,security,code injection via eval (CWE-95),fail,fail,pass,pass,5,True
+X04,security,cross-site scripting (CWE-79),fail,fail,pass,pass,4,True

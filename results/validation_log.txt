@@ -1,0 +1,18 @@
+L01  logic     buggy: vis=fail          hid=fail          | fixed: vis=pass hid=pass  tests=4  OK
+L02  logic     buggy: vis=fail          hid=pass          | fixed: vis=pass hid=pass  tests=4  OK
+L03  logic     buggy: vis=fail          hid=fail          | fixed: vis=pass hid=pass  tests=4  OK
+L04  logic     buggy: vis=fail          hid=fail          | fixed: vis=pass hid=pass  tests=4  OK
+R01  runtime   buggy: vis=fail          hid=pass          | fixed: vis=pass hid=pass  tests=3  OK
+R02  runtime   buggy: vis=fail          hid=fail          | fixed: vis=pass hid=pass  tests=3  OK
+R03  runtime   buggy: vis=fail          hid=fail          | fixed: vis=pass hid=pass  tests=4  OK
+R04  runtime   buggy: vis=fail          hid=fail          | fixed: vis=pass hid=pass  tests=3  OK
+S01  syntax    buggy: vis=syntax_error  hid=syntax_error  | fixed: vis=pass hid=pass  tests=3  OK
+S02  syntax    buggy: vis=syntax_error  hid=syntax_error  | fixed: vis=pass hid=pass  tests=3  OK
+S03  syntax    buggy: vis=syntax_error  hid=syntax_error  | fixed: vis=pass hid=pass  tests=3  OK
+S04  syntax    buggy: vis=syntax_error  hid=syntax_error  | fixed: vis=pass hid=pass  tests=3  OK
+X01  security  buggy: vis=fail          hid=fail          | fixed: vis=pass hid=pass  tests=4  OK
+X02  security  buggy: vis=fail          hid=fail          | fixed: vis=pass hid=pass  tests=5  OK
+X03  security  buggy: vis=fail          hid=fail          | fixed: vis=pass hid=pass  tests=5  OK
+X04  security  buggy: vis=fail          hid=fail          | fixed: vis=pass hid=pass  tests=4  OK
+
+16/16 bugs valid -> /home/claude/llm-debug-eval/results/validation.csv

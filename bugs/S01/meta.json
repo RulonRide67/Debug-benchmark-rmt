@@ -1,0 +1,10 @@
+{
+  "id": "S01",
+  "category": "syntax",
+  "subtype": "missing colon",
+  "function": "count_vowels",
+  "description": "for-loop header without colon",
+  "language": "python",
+  "origin": "newly written function with one seeded fault (not taken from a public benchmark)",
+  "created": "2026-10-25"
+}
