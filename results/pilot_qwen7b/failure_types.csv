@@ -1,0 +1,4 @@
+condition,fixed,overfit_visible,tests_fail
+zero_shot,12,3,1
+iterative,12,4,0
+sampled,14,2,0

@@ -1,0 +1,27 @@
+{
+  "run_id": "pilot_qwen7b_rerun",
+  "model": "ollama:qwen2.5-coder:7b",
+  "started": "2026-10-25T22:44:55",
+  "config": {
+    "model": {
+      "provider": "ollama",
+      "model": "qwen2.5-coder:7b",
+      "host": "http://localhost:11434",
+      "temperature": 0.0,
+      "seed": 42
+    },
+    "conditions": [
+      "zero_shot",
+      "iterative",
+      "sampled"
+    ],
+    "max_turns": 3,
+    "sample_temperature": 0.8
+  },
+  "python": "3.14.7",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "n_bugs": 16,
+  "conditions": [
+    "zero_shot"
+  ]
+}
