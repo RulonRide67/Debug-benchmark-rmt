@@ -46,7 +46,9 @@ Model-generated code is executed. Each test runs in a separate process, in a tem
 folder, with a 10 s timeout and a minimal environment (no API keys). For the full
 study run it inside a container or VM without network access.
 
-## Pipeline checks (no model involved)
+## Pipeline checks
 `configs/mock_*.json` replace the model by fixed stand-ins (unchanged buggy code,
 the reference fix, or "wrong first, fixed after feedback"). They prove that the
 harness, logging and analysis work. **They are not model results.**
+
+
