@@ -1,0 +1,10 @@
+{
+  "id": "S10",
+  "category": "syntax",
+  "subtype": "keyword used as name",
+  "function": "total_length",
+  "description": "reserved keyword used as loop variable",
+  "language": "python",
+  "origin": "newly written function with one seeded fault (not taken from a public benchmark)",
+  "created": "2026-11-14"
+}

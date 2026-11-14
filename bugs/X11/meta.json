@@ -1,0 +1,10 @@
+{
+  "id": "X11",
+  "category": "security",
+  "subtype": "resource exhaustion (CWE-400)",
+  "function": "repeat_text",
+  "description": "no limit on output size",
+  "language": "python",
+  "origin": "newly written function with one seeded fault (not taken from a public benchmark)",
+  "created": "2026-11-14"
+}

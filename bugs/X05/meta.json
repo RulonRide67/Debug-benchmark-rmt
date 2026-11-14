@@ -1,0 +1,10 @@
+{
+  "id": "X05",
+  "category": "security",
+  "subtype": "OS command injection (CWE-78)",
+  "function": "build_ping_command",
+  "description": "user input placed in a shell command string",
+  "language": "python",
+  "origin": "newly written function with one seeded fault (not taken from a public benchmark)",
+  "created": "2026-11-14"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "R13",
+  "category": "runtime",
+  "subtype": "KeyError (missing price)",
+  "function": "cart_total",
+  "description": "lookup of an item that has no price",
+  "language": "python",
+  "origin": "newly written function with one seeded fault (not taken from a public benchmark)",
+  "created": "2026-11-14"
+}

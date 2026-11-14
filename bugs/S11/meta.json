@@ -1,0 +1,10 @@
+{
+  "id": "S11",
+  "category": "syntax",
+  "subtype": "missing colon (while)",
+  "function": "count_down",
+  "description": "while header without colon",
+  "language": "python",
+  "origin": "newly written function with one seeded fault (not taken from a public benchmark)",
+  "created": "2026-11-14"
+}

@@ -7,6 +7,8 @@ class Hidden(unittest.TestCase):
         self.assertEqual(average([2, 4, 6]), 4)
     def test_tuple(self):
         self.assertEqual(average((1.5,)), 1.5)
+    def test_empty_tuple(self):
+        self.assertIsNone(average(()))
 
 
 if __name__ == '__main__':

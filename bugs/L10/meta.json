@@ -1,0 +1,10 @@
+{
+  "id": "L10",
+  "category": "logic",
+  "subtype": "wrong boundary operator",
+  "function": "water_state",
+  "description": "strict comparison at the boundaries",
+  "language": "python",
+  "origin": "newly written function with one seeded fault (not taken from a public benchmark)",
+  "created": "2026-11-14"
+}

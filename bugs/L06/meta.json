@@ -1,0 +1,10 @@
+{
+  "id": "L06",
+  "category": "logic",
+  "subtype": "wrong condition order",
+  "function": "fizzbuzz",
+  "description": "general case checked before the special case",
+  "language": "python",
+  "origin": "newly written function with one seeded fault (not taken from a public benchmark)",
+  "created": "2026-11-14"
+}

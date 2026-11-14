@@ -1,0 +1,10 @@
+{
+  "id": "L11",
+  "category": "logic",
+  "subtype": "wrong slice step",
+  "function": "reverse_words",
+  "description": "slice step does not reverse",
+  "language": "python",
+  "origin": "newly written function with one seeded fault (not taken from a public benchmark)",
+  "created": "2026-11-14"
+}

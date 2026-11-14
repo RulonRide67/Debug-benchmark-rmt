@@ -1,0 +1,10 @@
+{
+  "id": "X09",
+  "category": "security",
+  "subtype": "timing-unsafe comparison (CWE-208)",
+  "function": "check_api_key",
+  "description": "early-exit string comparison of secrets",
+  "language": "python",
+  "origin": "newly written function with one seeded fault (not taken from a public benchmark)",
+  "created": "2026-11-14"
+}

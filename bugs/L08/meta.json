@@ -1,0 +1,10 @@
+{
+  "id": "L08",
+  "category": "logic",
+  "subtype": "missing case (even length)",
+  "function": "median",
+  "description": "even-length lists not averaged",
+  "language": "python",
+  "origin": "newly written function with one seeded fault (not taken from a public benchmark)",
+  "created": "2026-11-14"
+}

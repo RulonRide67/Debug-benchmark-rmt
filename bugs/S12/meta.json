@@ -1,0 +1,10 @@
+{
+  "id": "S12",
+  "category": "syntax",
+  "subtype": "misplaced parenthesis",
+  "function": "pair_averages",
+  "description": "parenthesis opened in the loop target and never closed",
+  "language": "python",
+  "origin": "newly written function with one seeded fault (not taken from a public benchmark)",
+  "created": "2026-11-14"
+}

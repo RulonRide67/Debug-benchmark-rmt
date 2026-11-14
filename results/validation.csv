@@ -1,17 +1,61 @@
 bug_id,category,subtype,buggy_visible,buggy_hidden,fixed_visible,fixed_hidden,n_tests,valid
 L01,logic,off-by-one,fail,fail,pass,pass,4,True
-L02,logic,incomplete condition,fail,pass,pass,pass,4,True
-L03,logic,wrong state update,fail,fail,pass,pass,4,True
+L02,logic,incomplete condition,fail,fail,pass,pass,5,True
+L03,logic,wrong state update,fail,fail,pass,pass,6,True
 L04,logic,wrong formula,fail,fail,pass,pass,4,True
-R01,runtime,ZeroDivisionError,fail,pass,pass,pass,3,True
+L05,logic,missing normalisation,fail,fail,pass,pass,6,True
+L06,logic,wrong condition order,fail,fail,pass,pass,4,True
+L07,logic,off-by-one (range end),fail,fail,pass,pass,4,True
+L08,logic,missing case (even length),fail,fail,pass,pass,5,True
+L09,logic,missing boundary case,fail,fail,pass,pass,4,True
+L10,logic,wrong boundary operator,fail,fail,pass,pass,4,True
+L11,logic,wrong slice step,fail,fail,pass,pass,5,True
+L12,logic,unit error (percent),fail,fail,pass,pass,4,True
+L13,logic,order not preserved,fail,fail,pass,pass,4,True
+L14,logic,wrong variable,fail,fail,pass,pass,4,True
+L15,logic,incomplete transformation,fail,fail,pass,pass,4,True
+R01,runtime,ZeroDivisionError,fail,fail,pass,pass,4,True
 R02,runtime,KeyError,fail,fail,pass,pass,3,True
 R03,runtime,IndexError,fail,fail,pass,pass,4,True
 R04,runtime,TypeError,fail,fail,pass,pass,3,True
+R05,runtime,ValueError,fail,fail,pass,pass,5,True
+R06,runtime,AttributeError (None),fail,fail,pass,pass,4,True
+R07,runtime,RecursionError,fail,fail,pass,pass,5,True
+R08,runtime,RuntimeError (dict changed during iteration),fail,fail,pass,pass,4,True
+R09,runtime,ValueError (empty max),fail,fail,pass,pass,4,True
+R10,runtime,IndexError (empty string),fail,fail,pass,pass,5,True
+R11,runtime,ValueError (unpacking),fail,fail,pass,pass,4,True
+R12,runtime,TypeError (None comparison),fail,fail,pass,pass,5,True
+R13,runtime,KeyError (missing price),fail,fail,pass,pass,4,True
+R14,runtime,TypeError (float in range),fail,fail,pass,pass,4,True
+R15,runtime,AttributeError (non-string),fail,fail,pass,pass,4,True
 S01,syntax,missing colon,syntax_error,syntax_error,pass,pass,3,True
 S02,syntax,unbalanced parenthesis,syntax_error,syntax_error,pass,pass,3,True
-S03,syntax,assignment in condition,syntax_error,syntax_error,pass,pass,3,True
+S03,syntax,assignment in condition,syntax_error,syntax_error,pass,pass,4,True
 S04,syntax,indentation,syntax_error,syntax_error,pass,pass,3,True
+S05,syntax,unclosed bracket,syntax_error,syntax_error,pass,pass,3,True
+S06,syntax,unterminated string,syntax_error,syntax_error,pass,pass,3,True
+S07,syntax,invalid keyword (else if),syntax_error,syntax_error,pass,pass,2,True
+S08,syntax,missing comma,syntax_error,syntax_error,pass,pass,2,True
+S09,syntax,missing parentheses in def,syntax_error,syntax_error,pass,pass,2,True
+S10,syntax,keyword used as name,syntax_error,syntax_error,pass,pass,3,True
+S11,syntax,missing colon (while),syntax_error,syntax_error,pass,pass,4,True
+S12,syntax,misplaced parenthesis,syntax_error,syntax_error,pass,pass,3,True
+S13,syntax,malformed f-string,syntax_error,syntax_error,pass,pass,3,True
+S14,syntax,Python 2 print statement,syntax_error,syntax_error,pass,pass,3,True
+S15,syntax,indentation,syntax_error,syntax_error,pass,pass,4,True
 X01,security,SQL injection (CWE-89),fail,fail,pass,pass,4,True
-X02,security,path traversal (CWE-22),fail,fail,pass,pass,5,True
-X03,security,code injection via eval (CWE-95),fail,fail,pass,pass,5,True
+X02,security,path traversal (CWE-22),fail,fail,pass,pass,6,True
+X03,security,code injection via eval (CWE-95),fail,fail,pass,pass,7,True
 X04,security,cross-site scripting (CWE-79),fail,fail,pass,pass,4,True
+X05,security,OS command injection (CWE-78),fail,fail,pass,pass,4,True
+X06,security,predictable randomness (CWE-338),fail,fail,pass,pass,4,True
+X07,security,unsafe deserialisation (CWE-502),fail,fail,pass,pass,4,True
+X08,security,weak password hashing (CWE-916),fail,fail,pass,pass,4,True
+X09,security,timing-unsafe comparison (CWE-208),fail,fail,pass,pass,4,True
+X10,security,open redirect (CWE-601),fail,fail,pass,pass,5,True
+X11,security,resource exhaustion (CWE-400),fail,fail,pass,pass,5,True
+X12,security,log injection (CWE-117),fail,fail,pass,pass,4,True
+X13,security,mass assignment (CWE-915),fail,fail,pass,pass,4,True
+X14,security,URL allow-list bypass / SSRF (CWE-918),fail,fail,pass,pass,4,True
+X15,security,sensitive data exposure (CWE-200),fail,fail,pass,pass,3,True

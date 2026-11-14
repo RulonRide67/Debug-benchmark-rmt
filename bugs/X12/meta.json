@@ -1,0 +1,10 @@
+{
+  "id": "X12",
+  "category": "security",
+  "subtype": "log injection (CWE-117)",
+  "function": "format_log",
+  "description": "untrusted input written to logs without neutralisation",
+  "language": "python",
+  "origin": "newly written function with one seeded fault (not taken from a public benchmark)",
+  "created": "2026-11-14"
+}

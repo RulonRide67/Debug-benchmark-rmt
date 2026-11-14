@@ -1,0 +1,10 @@
+{
+  "id": "L09",
+  "category": "logic",
+  "subtype": "missing boundary case",
+  "function": "is_prime",
+  "description": "numbers below 2 reported as prime",
+  "language": "python",
+  "origin": "newly written function with one seeded fault (not taken from a public benchmark)",
+  "created": "2026-11-14"
+}

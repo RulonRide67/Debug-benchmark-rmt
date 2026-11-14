@@ -9,6 +9,8 @@ class Hidden(unittest.TestCase):
         self.assertTrue(is_leap(2024))
     def test_2023(self):
         self.assertFalse(is_leap(2023))
+    def test_2400(self):
+        self.assertTrue(is_leap(2400))
 
 
 if __name__ == '__main__':

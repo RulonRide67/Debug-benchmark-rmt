@@ -1,0 +1,10 @@
+{
+  "id": "R09",
+  "category": "runtime",
+  "subtype": "ValueError (empty max)",
+  "function": "longest_word",
+  "description": "max() of an empty sequence",
+  "language": "python",
+  "origin": "newly written function with one seeded fault (not taken from a public benchmark)",
+  "created": "2026-11-14"
+}

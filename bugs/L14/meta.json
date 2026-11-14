@@ -1,0 +1,10 @@
+{
+  "id": "L14",
+  "category": "logic",
+  "subtype": "wrong variable",
+  "function": "clamp",
+  "description": "lower bound used where the upper bound is needed",
+  "language": "python",
+  "origin": "newly written function with one seeded fault (not taken from a public benchmark)",
+  "created": "2026-11-14"
+}

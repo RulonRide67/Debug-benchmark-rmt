@@ -1,0 +1,10 @@
+{
+  "id": "R07",
+  "category": "runtime",
+  "subtype": "RecursionError",
+  "function": "factorial",
+  "description": "base case misses n = 0",
+  "language": "python",
+  "origin": "newly written function with one seeded fault (not taken from a public benchmark)",
+  "created": "2026-11-14"
+}

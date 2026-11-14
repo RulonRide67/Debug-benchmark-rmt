@@ -154,6 +154,12 @@ def main():
                    "platform": platform.platform(), "n_bugs": len(bugs),
                    "conditions": conditions}, f, indent=2)
     log = Logger(args.out)
+    # v2: one warm-up call so that model loading time is not counted as latency
+    if not hasattr(client, "start_bug"):
+        try:
+            client.chat([{"role": "user", "content": "Reply with OK."}])
+        except Exception as exc:
+            print("warm-up failed:", exc)
     for cond in conditions:
         for bug in bugs:
             ok = run_condition(client, bug, cond, cfg.get("max_turns", 3),

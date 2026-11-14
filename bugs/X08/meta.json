@@ -1,0 +1,10 @@
+{
+  "id": "X08",
+  "category": "security",
+  "subtype": "weak password hashing (CWE-916)",
+  "function": "hash_password",
+  "description": "fast unsalted-style MD5 instead of a key-derivation function",
+  "language": "python",
+  "origin": "newly written function with one seeded fault (not taken from a public benchmark)",
+  "created": "2026-11-14"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "R15",
+  "category": "runtime",
+  "subtype": "AttributeError (non-string)",
+  "function": "normalize_tags",
+  "description": "string method called on a number",
+  "language": "python",
+  "origin": "newly written function with one seeded fault (not taken from a public benchmark)",
+  "created": "2026-11-14"
+}

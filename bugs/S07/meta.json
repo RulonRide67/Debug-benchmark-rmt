@@ -1,0 +1,10 @@
+{
+  "id": "S07",
+  "category": "syntax",
+  "subtype": "invalid keyword (else if)",
+  "function": "sign",
+  "description": "'else if' used instead of 'elif'",
+  "language": "python",
+  "origin": "newly written function with one seeded fault (not taken from a public benchmark)",
+  "created": "2026-11-14"
+}

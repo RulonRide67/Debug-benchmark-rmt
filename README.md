@@ -1,6 +1,6 @@
 # LLM debugging evaluation harness (Assignment 3 – core practical component)
 
-Evaluates one LLM on a leakage-aware set of Python bugs in four categories
+Evaluates one LLM on a leakage-aware set of 60 Python bugs (15 per category; v2) in four categories
 (syntax, logic, runtime, security) under three conditions:
 
 | Condition  | What the model gets | Attempts |
@@ -46,9 +46,7 @@ Model-generated code is executed. Each test runs in a separate process, in a tem
 folder, with a 10 s timeout and a minimal environment (no API keys). For the full
 study run it inside a container or VM without network access.
 
-## Pipeline checks
+## Pipeline checks (no model involved)
 `configs/mock_*.json` replace the model by fixed stand-ins (unchanged buggy code,
 the reference fix, or "wrong first, fixed after feedback"). They prove that the
 harness, logging and analysis work. **They are not model results.**
-
-

@@ -1,0 +1,10 @@
+{
+  "id": "L15",
+  "category": "logic",
+  "subtype": "incomplete transformation",
+  "function": "capitalize_words",
+  "description": "rest of the word not lower-cased",
+  "language": "python",
+  "origin": "newly written function with one seeded fault (not taken from a public benchmark)",
+  "created": "2026-11-14"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "X14",
+  "category": "security",
+  "subtype": "URL allow-list bypass / SSRF (CWE-918)",
+  "function": "is_allowed_url",
+  "description": "prefix check instead of parsing the host",
+  "language": "python",
+  "origin": "newly written function with one seeded fault (not taken from a public benchmark)",
+  "created": "2026-11-14"
+}

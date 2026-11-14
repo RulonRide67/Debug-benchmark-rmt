@@ -1,0 +1,10 @@
+{
+  "id": "X13",
+  "category": "security",
+  "subtype": "mass assignment (CWE-915)",
+  "function": "update_profile",
+  "description": "all user-supplied fields copied into the object",
+  "language": "python",
+  "origin": "newly written function with one seeded fault (not taken from a public benchmark)",
+  "created": "2026-11-14"
+}

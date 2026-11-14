@@ -13,6 +13,9 @@ class Hidden(unittest.TestCase):
         self.assertFalse(os.path.exists(marker))
     def test_empty(self):
         self.assertEqual(parse_number_list("[]"), [])
+    def test_import_payload(self):
+        with self.assertRaises(ValueError):
+            parse_number_list("[__import__('os').getpid() and 1]")
     def test_garbage(self):
         with self.assertRaises(ValueError):
             parse_number_list("[1, 2")

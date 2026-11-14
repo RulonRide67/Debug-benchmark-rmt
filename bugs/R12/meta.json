@@ -1,0 +1,10 @@
+{
+  "id": "R12",
+  "category": "runtime",
+  "subtype": "TypeError (None comparison)",
+  "function": "max_score",
+  "description": "None compared with numbers",
+  "language": "python",
+  "origin": "newly written function with one seeded fault (not taken from a public benchmark)",
+  "created": "2026-11-14"
+}

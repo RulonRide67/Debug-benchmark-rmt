@@ -1,0 +1,10 @@
+{
+  "id": "S09",
+  "category": "syntax",
+  "subtype": "missing parentheses in def",
+  "function": "celsius_to_fahrenheit",
+  "description": "parameter list without parentheses",
+  "language": "python",
+  "origin": "newly written function with one seeded fault (not taken from a public benchmark)",
+  "created": "2026-11-14"
+}

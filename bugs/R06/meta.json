@@ -1,0 +1,10 @@
+{
+  "id": "R06",
+  "category": "runtime",
+  "subtype": "AttributeError (None)",
+  "function": "get_city",
+  "description": "method called on a missing (None) value",
+  "language": "python",
+  "origin": "newly written function with one seeded fault (not taken from a public benchmark)",
+  "created": "2026-11-14"
+}

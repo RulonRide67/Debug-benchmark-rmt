@@ -1,0 +1,10 @@
+{
+  "id": "X07",
+  "category": "security",
+  "subtype": "unsafe deserialisation (CWE-502)",
+  "function": "load_settings",
+  "description": "pickle used on untrusted input",
+  "language": "python",
+  "origin": "newly written function with one seeded fault (not taken from a public benchmark)",
+  "created": "2026-11-14"
+}

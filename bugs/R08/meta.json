@@ -1,0 +1,10 @@
+{
+  "id": "R08",
+  "category": "runtime",
+  "subtype": "RuntimeError (dict changed during iteration)",
+  "function": "remove_empty",
+  "description": "dictionary modified while iterating over it",
+  "language": "python",
+  "origin": "newly written function with one seeded fault (not taken from a public benchmark)",
+  "created": "2026-11-14"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "X10",
+  "category": "security",
+  "subtype": "open redirect (CWE-601)",
+  "function": "safe_redirect",
+  "description": "protocol-relative URLs accepted as local paths",
+  "language": "python",
+  "origin": "newly written function with one seeded fault (not taken from a public benchmark)",
+  "created": "2026-11-14"
+}

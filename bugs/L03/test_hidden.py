@@ -9,6 +9,8 @@ class Hidden(unittest.TestCase):
         self.assertIsNone(second_largest([7, 7]))
     def test_mixed(self):
         self.assertEqual(second_largest([3, 9, 1, 8]), 8)
+    def test_two(self):
+        self.assertEqual(second_largest([2, 10]), 2)
 
 
 if __name__ == '__main__':

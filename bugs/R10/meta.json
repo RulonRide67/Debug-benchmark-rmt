@@ -1,0 +1,10 @@
+{
+  "id": "R10",
+  "category": "runtime",
+  "subtype": "IndexError (empty string)",
+  "function": "initials",
+  "description": "empty parts after split(' ') are indexed",
+  "language": "python",
+  "origin": "newly written function with one seeded fault (not taken from a public benchmark)",
+  "created": "2026-11-14"
+}

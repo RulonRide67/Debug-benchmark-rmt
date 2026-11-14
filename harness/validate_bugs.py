@@ -2,7 +2,7 @@
 
 For every bug it must hold that:
   1. buggy.py FAILS the visible tests  (the bug is observable by the feedback signal)
-  2. buggy.py FAILS overall             (visible + hidden)
+  2. buggy.py FAILS the hidden tests   (v2: the held-out suite also detects the fault)
   3. fixed.py PASSES visible and hidden (the tests are satisfiable and correct)
 Writes results/validation.csv and exits with code 1 if any bug is invalid.
 """
@@ -24,7 +24,10 @@ def main():
         meta = json.load(open(os.path.join(d, "meta.json")))
         b = evaluate(open(os.path.join(d, "buggy.py")).read(), d)
         f = evaluate(open(os.path.join(d, "fixed.py")).read(), d)
-        valid = (b["visible"]["status"] != "pass" and not b["fixed"] and f["fixed"])
+        # v2: the buggy code must fail the visible tests (so feedback can be triggered)
+        # AND the hidden tests (so the hidden suite can also detect the fault)
+        valid = (b["visible"]["status"] != "pass" and b["hidden"]["status"] != "pass"
+                 and f["fixed"])
         bad += not valid
         rows.append({"bug_id": bid, "category": meta["category"], "subtype": meta["subtype"],
                      "buggy_visible": b["visible"]["status"], "buggy_hidden": b["hidden"]["status"],

@@ -1,0 +1,10 @@
+{
+  "id": "X15",
+  "category": "security",
+  "subtype": "sensitive data exposure (CWE-200)",
+  "function": "user_to_json",
+  "description": "secret fields included in serialised output",
+  "language": "python",
+  "origin": "newly written function with one seeded fault (not taken from a public benchmark)",
+  "created": "2026-11-14"
+}

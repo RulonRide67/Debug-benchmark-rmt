@@ -1,0 +1,10 @@
+{
+  "id": "S06",
+  "category": "syntax",
+  "subtype": "unterminated string",
+  "function": "greet",
+  "description": "closing quotation mark missing",
+  "language": "python",
+  "origin": "newly written function with one seeded fault (not taken from a public benchmark)",
+  "created": "2026-11-14"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "X06",
+  "category": "security",
+  "subtype": "predictable randomness (CWE-338)",
+  "function": "generate_token",
+  "description": "non-cryptographic PRNG used for security tokens",
+  "language": "python",
+  "origin": "newly written function with one seeded fault (not taken from a public benchmark)",
+  "created": "2026-11-14"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "L13",
+  "category": "logic",
+  "subtype": "order not preserved",
+  "function": "unique_in_order",
+  "description": "set() loses the original order",
+  "language": "python",
+  "origin": "newly written function with one seeded fault (not taken from a public benchmark)",
+  "created": "2026-11-14"
+}

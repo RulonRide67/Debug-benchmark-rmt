@@ -1,0 +1,10 @@
+{
+  "id": "R11",
+  "category": "runtime",
+  "subtype": "ValueError (unpacking)",
+  "function": "to_dict",
+  "description": "split result unpacked without checking its length",
+  "language": "python",
+  "origin": "newly written function with one seeded fault (not taken from a public benchmark)",
+  "created": "2026-11-14"
+}
